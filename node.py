@@ -11,6 +11,7 @@ class Node:
         self.isEmpty = self.char == " "
 
         self.crMnStp = None # current smallest step count reached by pathfinder                          # chng nm!1!!!1!!!1!
+        self.maxTorchLeft = None # current maximum torch left reached by pathfinder
         self.connections = []
 
     def __repr__(self) -> str:
