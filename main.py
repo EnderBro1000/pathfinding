@@ -1,4 +1,4 @@
-from pathFinder import PathFinder
+from pathfinder import PathFinder
 from tMap import TMap
 import sys
 import time
