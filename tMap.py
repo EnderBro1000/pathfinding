@@ -1,20 +1,14 @@
 import numpy as np
 from mapParser import MapParser, stringToNodeMatrix
 from node import Node
-
-def matrixString(mat) -> str:
-    out = ""
-    for i in range(len(mat)):
-        for j in range(len(mat[0])):
-            out += f"{mat[i][j]} "
-        out += "\n"
-    return out
+import functions
 
 class TMap:
     def __init__(self, inputFile):
+        self.inputFile = inputFile
 
         self.startNode = None
-        print("created map")
+        # print("created map")
         self.nodeMatrix = MapParser.parse(inputFile)
 
         # self.nodeMatrix = np.flip(self.nodeMatrix)
@@ -34,7 +28,7 @@ class TMap:
 
 
     def __repr__(self) -> str:
-        return matrixString(self.nodeMatrix)
+        return functions.matrixString(self.nodeMatrix)
                 
 
 def main():

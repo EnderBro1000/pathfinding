@@ -1,3 +1,5 @@
+import functions
+
 class Node:
     def __init__(self, char, pos):
         self.char = char
@@ -8,7 +10,7 @@ class Node:
         self.isStart = self.char == "H"
         self.isGoal = self.char == "T"
         self.isTorch = self.char == "t"
-        self.isEmpty = self.char == " "
+        self.isEmpty = self.char == " " or self.char == "h"
 
         self.crMnStp = None # current smallest step count reached by pathfinder                          # chng nm!1!!!1!!!1!
         self.maxTorchLeft = None # current maximum torch left reached by pathfinder
@@ -23,6 +25,9 @@ class Node:
     def addOpenConnection(self, node):
         if not node.isWall:
             self.addConnection(node)
+
+    def setTorchLeft(self, torchLeft):
+        self.maxTorchLeft = functions.maxWithNone(self.maxTorchLeft, torchLeft)
 
     def outConnections(self) -> str:
         out = ""

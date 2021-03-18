@@ -1,0 +1,21 @@
+--------------------------------------
+|  x xxxxxxxxxxxxx  xxx     x  xxxxxx|
+| xx     txxxxxxxxx t xxxx        xxx|
+| xxx xx                  x xxx      |
+|xxxxxxxxxxxxxxxxxx       xxxxxxxxxxx|
+|       xxxxttt           xxt        |
+|xxxxxx   xxxx   xxxxxxxx     xxxxxx |
+|xxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxx |
+|t               xxxxx         xxxxx |
+|xx  xxxxxxxxxxxxxxxxx  xxxxxx    xx |
+|x  xxxxxxxxxxxxxxxx   xxxxxxxxxx  x |
+|x xxx           xx  xxx    xxxxxx x |
+|x x     xxxxxxxxxxxxxxxxxxxxxxxxxxx |
+|x xxxxxxx x x   xxxxxxx    xxx    x |
+|x   ttxx  xxxxxx    xxxxxxxxxxxxxxx |
+|x xxxxxx xxx  xxxxxxxxx    xxxxx  x |
+|x x  xxx  xxxxxxxxxxxxx    xxxx   x |
+|xHxxxx xx x xx xx xx xxxxxxxxxx  xx |
+|xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+|xxxx           T                    |
+--------------------------------------

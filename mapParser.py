@@ -14,7 +14,7 @@ def stringToNodeMatrix(text):
 
 class MapParser:
     def parse(file):
-        print("parsing")
+        # print("parsing")
 
         file = open(file, "r").read()
         
