@@ -12,7 +12,7 @@ def main():
     # print(sys.getrecursionlimit())
     # tMap = TMap("inputMaps/examples/Prob16.in.txt")
     tMap = TMap("inputMaps\\examples\\UltraHardTH.in.txt")
-    pathfinder = PathFinder(tMap.startNode)
+    pathfinder = PathFinder(tMap.startNode, tMap)
     print(f"\n\tsolution: {pathfinder.bestFound}\tInstances: {pathfinder.totalProcesses}")
     tFinish = time.time()
     tDif = (tFinish - tStart) * 1000 # execution time in ms

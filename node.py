@@ -1,8 +1,8 @@
 class Node:
     def __init__(self, char, pos):
         self.char = char
-        self.x = pos[1]
-        self.y = pos[0]
+        self.i = pos[0]
+        self.j = pos[1]
 
         self.isWall = self.char == "x" or self.char == "|" or self.char == "-"
         self.isStart = self.char == "H"

@@ -29,6 +29,9 @@ class TMap:
                     node.addOpenConnection(self.nodeMatrix[i][j+1]) # down
                     node.addOpenConnection(self.nodeMatrix[i+1][j]) # right
 
+    def getNode(self, i, j):
+        return self.nodeMatrix[i][j]
+
 
     def __repr__(self) -> str:
         return matrixString(self.nodeMatrix)
